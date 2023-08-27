@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant</title>
+  <style>
+    h1{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: bisque;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1rem 0;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    .hero-image {
+      width: 100%;
+      height: auto;
+    }
+    .menu-item {
+      display: flex;
+      margin-bottom: 1rem;
+      border: 1px solid #ddd;
+      padding: 1rem;
+    }
+    .menu-item img {
+      width: 100px;
+      height: 100px;
+      margin-right: 1rem;
+    }
+    .menu-item-info {
+      flex: 1;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="container">
+    <img src="restaurant_view.jpg" alt="Restaurant Interior" class="hero-image"width=1000>
+    
+    <h2>Our Menu</h2>
+    <div class="menu-item">
+      <img src="https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?cs=srgb&dl=pexels-pixabay-262978.jpg&fm=jpg" alt="Dish 1">
+      <div class="menu-item-info">
+        <h3>Dish 1</h3>
+        <p>Tacos al pastor</p>
+        <p>Price: Rs.100</p>
+      </div>
+    </div>
+    <div class="menu-item">
+      <img src="https://img.freepik.com/premium-photo/waiter-serving-motion-duty-restaurant-waiter-carries-dishes_109285-6001.jpg?w=2000" alt="Dish 2">
+      <div class="menu-item-info">
+        <h3>Dish 2</h3>
+        <p>Churrasco</p>
+        <p>Price: Rs.200</p>
+      </div>
+    </div>
+    <div class="menu-item">
+        <img src="delicious-food.jpg "alt="Dish 3" width="2000">
+        <div class="menu-item-info">
+          <h3>Dish 3</h3>
+          <p>Sandwich and Fries</p>
+          <p>Price: Rs.189</p>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="restaurant-innovators_servingfood.jpg" alt="Dish 4" width="2000">
+        <div class="menu-item-info">
+          <h3>Dish 4</h3>
+          <p>salad</p>
+          <p>Price: Rs.230</p>
+        </div>
+      </div>
+    
+    
+  </div>
+  
+  <footer>
+    <p>&copy; 2023.Restaurant by Aswanandini.All Rights Reserved</p>
+  </footer>
+</body>
+</html>

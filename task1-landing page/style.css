@@ -1,0 +1,52 @@
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: bisque;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+}
+
+.menu-item {
+    display: flex;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    padding: 1rem;
+}
+
+.menu-item img {
+    width: 100px;
+    height: 100px;
+    margin-right: 1rem;
+}
+
+.menu-item-info {
+    flex: 1;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
